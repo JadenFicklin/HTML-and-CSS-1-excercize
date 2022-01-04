@@ -1,0 +1,233 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  height: 2600px;
+}
+h2 {
+  font-size: 35px;
+}
+
+/* navigation bar */
+.navigationBar {
+  background-color: #012a4a;
+  height: 60px;
+  width: 1728px;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  font-size: 35px;
+  z-index: 1;
+}
+
+h1 {
+  font-size: 35px;
+}
+a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+.menu {
+  margin-left: 200px;
+  margin-right: -100px;
+}
+.contact {
+  margin-left: -100px;
+  margin-right: 210px;
+}
+
+/* spacing for full webpage */
+.outer {
+  height: 2000px;
+  width: 1122px;
+}
+
+/* image header */
+.image_div {
+  position: fixed;
+  width: 1122px;
+  height: 380px;
+  background-image: url("./Images/ivan-torres-MQUqbmszGGM-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  z-index: -1;
+}
+.image_div_two {
+  position: fixed;
+  top: 510px;
+  width: 1122px;
+  height: 1000px;
+  background-image: url("./Images/ivan-torres-MQUqbmszGGM-unsplash.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: none;
+  z-index: -1;
+}
+
+/* pick your pizza */
+#pick_your_pizza {
+  position: relative;
+  margin-top: 380px;
+  width: 1122px;
+  height: 408px;
+  background-color: #faf3dd;
+  display: flex;
+}
+.pick_your_pizza_header {
+  position: absolute;
+  width: 1122px;
+  display: flex;
+  justify-content: center;
+}
+.pizza_one,
+.pizza_two,
+.pizza_three {
+  width: 306px;
+  height: 204px;
+  position: relative;
+  top: 25%;
+  background-size: 110%;
+  background-position: center;
+  background-repeat: none;
+  transition: 0.25s;
+}
+.pizza_one {
+  left: 52px;
+  background-image: url("./Images/amirali-mirhashemian-XtLPfib7OuM-unsplash.jpg");
+}
+
+.pizza_two {
+  left: 102px;
+  background-image: url("./Images/alan-hardman-SU1LFoeEUkk-unsplash.jpg");
+}
+.pizza_three {
+  left: 152px;
+  background-image: url("./Images/kristina-bratko-OtZ-MbBTSYA-unsplash.jpg");
+  background-size: cover;
+}
+
+.pizza_one:hover,
+.pizza_two:hover,
+.pizza_three:hover {
+  background-size: 120%;
+  /* opacity: 0; */
+}
+
+/* delivery */
+#delivery {
+  position: relative;
+  width: 1122px;
+  height: 612px;
+  background-color: #f1dca7;
+}
+.delivery_heading {
+  position: absolute;
+  width: 1122px;
+  display: flex;
+  justify-content: center;
+}
+.delivery_options {
+  position: relative;
+  top: 100px;
+  left: 50px;
+  width: 288px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf3dd;
+  border-radius: 2px;
+}
+.delivery_options_two {
+  position: relative;
+  top: 150px;
+  left: 50px;
+  width: 288px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf3dd;
+  border-radius: 2px;
+}
+.delivery_options_three {
+  position: relative;
+  top: 200px;
+  left: 50px;
+  width: 288px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #faf3dd;
+  border-radius: 2px;
+}
+
+.delivery_image {
+  width: 612px;
+  height: 408px;
+  background-image: url("./Images/zhuo-cheng-you-Eet5MP9K67c-unsplash.jpg");
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  position: relative;
+  top: -50px;
+  left: 400px;
+}
+
+/* about */
+#about_pizza_treehouse {
+  position: relative;
+  width: 1122px;
+  height: 510px;
+  background-color: #faf3dd;
+  display: flex;
+  justify-content: center;
+}
+.about_pizza_heading {
+  position: absolute;
+  font-size: 35px;
+}
+.about_text {
+  width: 300px;
+  height: 150px;
+  position: relative;
+  top: 160px;
+  left: 200px;
+}
+.about_pizza_about_us {
+  font-size: 20px;
+}
+.side_image {
+  clip-path: polygon(75% 0, 100% 0, 100% 100%, 20% 100%);
+  background-color: black;
+  width: 1122px;
+  height: 510px;
+  background-image: url("./Images/jordan-nix-Lztm2I7Bl2k-unsplash.jpg");
+  background-size: cover;
+  background-position: 0% 25%;
+  background-repeat: none;
+}
+
+/* contact */
+#contact_pizza_treehouse {
+  position: relative;
+  width: 1122px;
+  height: 503px;
+  background-color: #f1dca7;
+}
+.contact_heading {
+  position: absolute;
+  width: 1122px;
+  display: flex;
+  justify-content: center;
+}
